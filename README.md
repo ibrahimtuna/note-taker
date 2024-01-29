@@ -2,13 +2,13 @@
 - First, be sure you have done with React Native Enviorement Setup [Enviorement Setup for React Native](https://reactnative.dev/docs/environment-setup)
 - Clone repo and run `npm install` or `yarn` after than run `cd ios && pod install`
 
-## IOS Run
+## IOS Run
 - Open `NoteTakingApp.xcworkspace` file with xCode from `/ios` folder.
 - Wait for indexing and hit run button from top bar.
 
 Or simply you may run that command `npx react-native run-ios`. Also, you may specify simulator with adding `--simulator="iPhone 13"` text end of line.
 
-## Android Run
+## Android Run
 - Open Android Studio and click "Open" from "File" menu, then select `/android` folder into app files.
 - Wait for indexing and hit run button from top bar.
 
@@ -18,8 +18,8 @@ Or simply you may run that command `npx react-native run-android`.
 ## Running on real device
 - You may check this link for running application into real device. [Running On Device](https://reactnative.dev/docs/running-on-device)
 
-## Notes
-- I used RN-0.71.X at project because the microsoft documentation says its currently most stable version for MacOS. [link](https://microsoft.github.io/react-native-windows/docs/rnm-getting-started)
+## Notes
+- The motivation of using React Native 0.71.X in that project is, the Microsoft documentation says its the most stable version for MacOS development for now. [link](https://microsoft.github.io/react-native-windows/docs/rnm-getting-started)
 - Tests are not completed.
 
 ## Prerequisites
